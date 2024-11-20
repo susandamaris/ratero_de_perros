@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+}
+h1,h2{
+    padding: 5px;
+}
+.caja{
+    background-color: rgba(0, 0, 0, 0.856);
+    padding: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.hero{
+    align-items: center;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+iframe{
+    width: 80%;
+    max-width: 600px;
+    height: 315px;
+}
+
+
+.testimonial {
+    margin: 20px 0;
+    font-style: italic;
+}
+.redes{
+    text-align: center;
+}
+.redes img{
+    width: 80px;
+    height: auto;
+    padding: 10px;
+    transition: 0s;
+    
+}
+.redes img:hover{
+    width: 90px;
+    height: auto;
+}
+@media screen and (max-width:600px) {
+    body{
+        padding: 20px;
+    }
+    .caja{
+        padding: 25px;
+        font-size: 15px;
+    }
+    .video{
+        height: 50vh;
+    }
+}
